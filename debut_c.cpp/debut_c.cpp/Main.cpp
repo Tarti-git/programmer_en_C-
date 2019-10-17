@@ -2,14 +2,18 @@
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
+#include "CPoint.h"
 
 using namespace std;
+
+//POO C++
+// Class (Données & méthodes)
 
 //Exemple de programme en C ++
 
 int main()
 {
-	int i = 0;
+	/*int i = 0;
 	float x = 0.0;
 	float racx = 0.0;
 	const int NFOIS = 5;
@@ -25,7 +29,14 @@ int main()
 			cout << "Le nombre" << x << "a pour racine carree" << racx << endl;
 		}
 	}
-	cout << "Travail Termine" << endl;
+	cout << "Travail Termine" << endl;*/
+	CPoint ptMonPoint;
+
+	ptMonPoint.setX(3);
+	ptMonPoint.setY(5);
+	int resX = ptMonPoint.getX();
+	int resY = ptMonPoint.getY();
+	cout << "X = " << resX << "   Y = " << resY << endl;
 	system("pause");
 	return 0;
 }
