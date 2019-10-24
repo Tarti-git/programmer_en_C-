@@ -30,10 +30,11 @@ int main()
 		}
 	}
 	cout << "Travail Termine" << endl;*/
-	CPoint ptMonPoint;
+	CPoint ptMonPoint(3, 5);
 
-	ptMonPoint.setX(3);
-	ptMonPoint.setY(5);
+	//ptMonPoint.setX(3);
+	//ptMonPoint.setY(5);
+	//ptMonPoint.init(3, 5);
 	int resX = ptMonPoint.getX();
 	int resY = ptMonPoint.getY();
 	cout << "X = " << resX << "   Y = " << resY << endl;
